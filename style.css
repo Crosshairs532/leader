@@ -1,0 +1,258 @@
+body {
+    background-color: #f3f1ff;
+    font-family: 'Foldit', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+header {
+    /* display: flex;
+    justify-content: space-between; */
+    background-color: rgba(86, 46, 255, 1);
+    width: 100%;
+    height: 94px;
+    /* margin-left: 285px; */
+
+}
+
+.top {
+    margin-top: 44px;
+}
+
+.half {
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+    /* width: 100%; */
+    /* margin-left: 285px;
+    margin-right: 289px; */
+}
+
+.half img {
+    width: 51px;
+    height: 51px;
+}
+
+.half.right {
+    display: flex;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 285px;
+    margin-right: 285px;
+}
+
+.half ul {
+    border: 2px solid balck;
+    display: flex;
+}
+
+.half ul li {
+    list-style: none;
+    padding-right: 36px;
+
+}
+
+.half ul li a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.icon img {
+    width: 41px;
+    height: 51px;
+}
+
+.half h3 {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 15px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .top_players {
+    /* border: 2px solid red; */
+/* margin-bottom: 40px; */
+
+
+.section_tittle {
+    color: rgba(86, 46, 255, 1);
+    font-size: 24px;
+    /* line-height: 40px; */
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    /* border: 2px solid black; */
+    /* border: 2px solid red; */
+    /* margin: 20px; */
+    grid-row-gap: 30px;
+}
+
+.container {
+    background-color: #FFFFFF;
+    /* border: 2px solid black; */
+    width: 870px;
+    /* height: 670px; */
+    padding: 30px;
+    padding-top: 14px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.players .player {
+    display: flex;
+    align-items: center;
+}
+
+.players .player img {
+    width: 56px;
+    height: 56px;
+}
+
+.p_name {
+    margin-left: 16px;
+}
+
+hr {
+    border: 1px solid rgba(209, 209, 209, 1);
+    margin-bottom: 33px;
+}
+
+hr:hover {
+    border: 1px solid rgba(86, 46, 255, 1);
+}
+
+.blogs {
+    /* border: 2px solid black; */
+    display: flex;
+
+}
+
+.blogs .thumb img {
+    width: 177px;
+    height: 117px;
+}
+
+.blogs .details {
+    padding-left: 13px;
+}
+
+.blog_tittle {
+    font-size: 20px;
+}
+
+.details p {
+    font-size: 16px;
+    color: rgba(159, 159, 159, 1);
+}
+
+.author {
+    color: rgba(86, 46, 255, 1);
+    text-decoration: none;
+}
+
+.top_bloggers {
+    /* margin-top: 33px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.course {
+    width: 253px;
+    height: 270px;
+    box-shadow: 0px 5.34229px 13.3557px rgba(36, 26, 26, 0.539);
+    border-radius: 10px;
+    margin-left: 24px;
+    padding: 13px 17px 19px 12px;
+}
+
+.courses {
+    display: flex;
+    /* margin-left: 24px; */
+}
+
+.courses .pic img {
+    width: 224px;
+    height: 104px;
+}
+
+.ratings i {
+    font-size: 14px;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-size: 14px;
+}
+
+.fa-star.fill {
+    color: rgba(255, 192, 20, 1);
+}
+
+.fa-star.empty {
+    color: rgba(174, 174, 174, 1);
+}
+
+.st_time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    background-color: rgba(255, 228, 232, 1);
+    border-radius: 15px;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+
+.l_course,
+.section_tittle {
+    color: rgba(86, 46, 255, 1);
+    margin-left: 10pxpx;
+
+}
+
+/* media query */
+
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+    .players {
+        /* flex-direction: column; */
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player,
+    .blogs {
+        flex-direction: column;
+
+    }
+
+    .top_bloggers {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .courses {
+        flex-direction: column;
+        align-items: center;
+    }
+}
